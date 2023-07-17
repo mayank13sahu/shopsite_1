@@ -1,0 +1,61 @@
+
+import React, { useState } from 'react';
+
+const App = () => {
+	const [movies, setMovies] = useState([
+    {
+      "Title": "Stardust",
+      "Year": "2007",
+      "imdbID": "tt0486655",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg"
+  },
+  {
+      "Title": "Ziggy Stardust and the Spiders from Mars",
+      "Year": "1979",
+      "imdbID": "tt0086643",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWE2NjBhN2EtZmI2Yi00MzFjLTlmMGEtMDYyYjg1NTg3ZGQ0XkEyXkFqcGdeQXVyNTc0MTc5NQ@@._V1_SX300.jpg"
+  },
+  {
+      "Title": "Mission Stardust",
+      "Year": "1967",
+      "imdbID": "tt0063859",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMGJkOWVjN2QtYzAwZC00M2UwLWJkYjUtOWY5NmU0YTdlMzI3XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg"
+  },
+  {
+      "Title": "Stardust: The Bette Davis Story",
+      "Year": "2006",
+      "imdbID": "tt0800219",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTc2MTNjZDQtMTY1MC00YzNkLTg3NWQtYTg0M2MxODIxOTgzXkEyXkFqcGdeQXVyMDQ1ODg5Ng@@._V1_SX300.jpg"
+  },
+  {
+      "Title": "Angels in Stardust",
+      "Year": "2016",
+      "imdbID": "tt1640483",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2OTUxNTM4OF5BMl5BanBnXkFtZTgwMzQ1NjMyMTE@._V1_SX300.jpg"
+  },
+  {
+      "Title": "The Legend of the Stardust Brothers",
+      "Year": "1985",
+      "imdbID": "tt0419821",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWM2MzM0YWItMmE5Ny00ZDNhLTgxYWMtZTlhYWJjMTdiYjYyXkEyXkFqcGdeQXVyODM4MzQ1Nzc@._V1_SX300.jpg"
+  }
+  ]);
+  
+  
+  
+  return 
+     <div> 
+       < movielist movies = {movies}>
+
+       </movielist>
+     </div> ;
+
+};
+
+export default App;

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head>
+     <meta charset = " UTF-8 ">
+     <title> GLAMOUR GALLERIA </title>
+     <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+     <div class = "container"> 
+          <div class = "navbar">
+
+               <div class = "logo">
+                   <img src = "IMG/3.png"  class = "logo" style="width: 500px; height: 200px;">
+               </div>
+                
+               <nav>
+                  <ul>
+                       <li><a href = ""> HOME </a> </li>
+                       <li><a href = ""> ACCOUNT </a> </li>
+                       <li><a href = ""> MENU </a> </li>
+                       <li><a href = ""> FAVOURITES </a> </li>
+                       <li><a href = ""> BAG </a> </li>
+                       <li><a href = ""> SEARCH </a> </li>
+                       <li><a href = ""> SALES & OFFERS </a> </li>
+                  </ul>
+               </nav>
+               <img src="IMG/BAG3.jpg" width="30px" height="30px">
+             </div>
+
+           <div>
+               <div class = "row">
+                    <div class="col-2">
+                         <h3 style="font-family: serif;"> Unleashing the Beauty of <br>Cultural Heritage  </h3>
+                        
+                         <p> <br> Classy and elegant ethnic fashion embodies the 
+                                  <br>essence of cultural heritage merged seamlessly with 
+                                  <br>contemporary sophistication showcasing 
+                                  <br>a harmonious blend of traditional elements
+                                  <br>in modern design, resulting in  
+                                  <br>exquisite outfits that exude
+                                  <br>grace, elegance and refinement.</p>        
+                        <p style="font-family: segoe script;"> Embrace in style </p>
+                        <a href = "" class="button" style="font-family: segoe script;"> Shop Now </a>
+                    </div>
+               
+                    <div class="col-2">
+                         <!--<p style="background-image: url('IMG/WP.jpg');"></p>-->
+                         <img src = "IMG/WP.jpg" >
+                    </div>
+               </div>
+     
+          </div> 
+     </div>  
+
+
+     <!---------------------- SECTION II :  FEATURED CATEGORY ---------------->
+
+     <div class="categories">
+          <div class="small-container">
+
+               <div class="row">
+                    <div class = "col-3">
+                         <img src = "IMG/SAREE.jpg">
+                         <a href = "" class="category" style="font-family: segoe script;"> SAREE</a>
+                    </div>
+                    
+                    <div class = "col-3">
+                         <img src = "IMG/lehenga9(1).png" style="height:365px;">
+                         <a href = "" class="category" style="font-family: segoe script;"> LEHENGA</a>
+                    </div>
+                    
+                    <div class = "col-3">
+                         <img src = "IMG/gown4.jpg" style="height:365px;">
+                         <a href = "" class="category" style="font-family: segoe script;"> GOWN</a>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</body>
+</html>

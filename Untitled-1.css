@@ -1,0 +1,62 @@
+<div class = "dropdown">
+               <span>Lehenga</span>
+               <span>Saree</span>
+               <span>Dresses</span>
+               <span>Gowns</span>
+               <span>Footwear</span>
+
+               <select>
+                    <option value="option1">Lehenga</option>
+                    <option value="option2">Saree</option>
+                    <option value="option3">Dresses</option>
+                    <option value="option4">Gowns</option>
+                    <option value="option5">Footwear</option>
+               </select>
+          </div>
+
+
+
+
+
+
+
+.dropdown{
+    position: absolute;
+    top: 50px;
+    left: 5;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+.dropdown span{
+    background-color: grey;
+   transition: transform 0.3s ease;
+   display: block;
+  position: relative;
+  height: 4px;
+  width: 100%;
+}
+.dropdown span:nth-child(1) {
+    top: 0;
+  }
+  
+  .dropdown span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dropdown span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  .dropdown.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .dropdown.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .dropdown.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
